@@ -11,16 +11,17 @@ app.get("/", (req, res) => {
 
 // ✅ Word of the day
 const wordOfTheDay = {
-  date: "2025-10-05",
-  word: "Diurnal",
-  type: "Adjective",
-  phonetic: "/dīˈərnəl/",
-  definition:
-    "Occurring or active during the daytime; relating to or happening once every day.",
-  usage:
-    "Unlike nocturnal creatures, diurnal animals such as squirrels and hawks are active during the day.",
-  synonyms: ["Daily", "Daytime", "Circadian"]
-};
+    date: "2025-10-06",
+    word: "Brolic",
+    type: "Adjective",
+    phonetic: "/ˈbrɒlɪk/",
+    definition:
+      "Describing someone who is extremely muscular or well-built.",
+    usage:
+      "After months of training at the gym, he looked absolutely brolic.",
+    synonyms: ["Muscular", "Ripped", "Buff"]
+  };
+  
 
 app.get("/word", (req, res) => {
   res.json(wordOfTheDay);
