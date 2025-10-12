@@ -1,5 +1,6 @@
 import express from "express";
 import cors from "cors";
+import { wordLibrary } from "./dictionary.js";
 
 const app = express();
 app.use(cors());
@@ -9,23 +10,15 @@ app.get("/", (req, res) => {
   res.send("🌞 Diurnal API is running! Try /word");
 });
 
-// ✅ Word of the day
-const wordOfTheDay = {
-    date: "2025-10-06",
-    word: "Brolic",
-    type: "Adjective",
-    phonetic: "/ˈbrɒlɪk/",
-    definition:
-      "Describing someone who is extremely muscular or well-built.",
-    usage:
-      "After months of training at the gym, he looked absolutely brolic.",
-    synonyms: ["Muscular", "Ripped", "Buff"]
-  };
-  
-
 app.get("/word", (req, res) => {
-  res.json(wordOfTheDay);
-});
+    const today = new Date();
+    const dayCount = Math.floor(
+      (today - new Date('2025-10-05')) / (1000 * 60 * 60 * 24)
+    );
+    const index = dayCount % wordLibrary.length; // loops back automatically
+    const wordOfTheDay = wordLibrary[index];
+    res.json(wordOfTheDay);
+  });
 
 // ✅ This must be *last* — handles unknown routes
 app.use((req, res) => {
