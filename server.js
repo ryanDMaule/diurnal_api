@@ -15,6 +15,10 @@ const wordOfTheDay = {
 //   audio_url: "https://yourdomain.com/audio/diurnal.mp3"
 };
 
+app.get("/", (req, res) => {
+    res.send("🌞 Diurnal API is running! Try /word");
+  });
+
 app.get("/word", (req, res) => {
   res.json(wordOfTheDay);
 });
