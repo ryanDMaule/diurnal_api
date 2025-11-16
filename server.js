@@ -11,14 +11,15 @@ app.get("/", (req, res) => {
 });
 
 app.get("/word", (req, res) => {
-    const today = new Date();
-    const dayCount = Math.floor(
-      (today - new Date('2025-10-05')) / (1000 * 60 * 60 * 24)
-    );
-    const index = dayCount % wordLibrary.length; // loops back automatically
-    const wordOfTheDay = wordLibrary[index];
-    res.json(wordOfTheDay);
-  });
+  const today = new Date();
+  const startDate = new Date("2025-10-05"); // Your season start date
+  const dayCount = Math.floor((today - startDate) / (1000 * 60 * 60 * 24));
+
+  const index = dayCount % wordLibrary.length; // cycles automatically
+  const wordOfTheDay = wordLibrary[index];
+
+  res.json(wordOfTheDay);
+});
 
 // ✅ This must be *last* — handles unknown routes
 app.use((req, res) => {
