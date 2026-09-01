@@ -1,6 +1,40 @@
 import express from "express";
 import cors from "cors";
-import { wordLibrary } from "./dictionary.js";
+import {
+  isValidPublicationDate,
+  publications,
+  PUBLICATION_TIMEZONE,
+  validatePublications
+} from "./publications.js";
+
+validatePublications(publications);
+
+function calendarDateInTimezone(date, timeZone) {
+  const parts = new Intl.DateTimeFormat("en-GB", {
+    timeZone,
+    year: "numeric",
+    month: "2-digit",
+    day: "2-digit"
+  }).formatToParts(date);
+  const values = Object.fromEntries(parts.map(({ type, value }) => [type, value]));
+
+  return `${values.year}-${values.month}-${values.day}`;
+}
+
+const publicationDateOverride = process.env.DIURNUS_DATE_OVERRIDE;
+if (
+  publicationDateOverride !== undefined &&
+  !isValidPublicationDate(publicationDateOverride)
+) {
+  throw new Error(
+    "DIURNUS_DATE_OVERRIDE must be a real calendar date in YYYY-MM-DD format."
+  );
+}
+
+function resolvePublicationDate() {
+  if (publicationDateOverride !== undefined) return publicationDateOverride;
+  return calendarDateInTimezone(new Date(), PUBLICATION_TIMEZONE);
+}
 
 const app = express();
 app.use(cors());
@@ -11,14 +45,20 @@ app.get("/", (req, res) => {
 });
 
 app.get("/word", (req, res) => {
-  const today = new Date();
-  const startDate = new Date("2025-10-05"); // Your season start date
-  const dayCount = Math.floor((today - startDate) / (1000 * 60 * 60 * 24));
+  const resolvedPublicationDate = resolvePublicationDate();
+  const publication = publications.find(
+    ({ publicationDate }) => publicationDate === resolvedPublicationDate
+  );
 
-  const index = dayCount % wordLibrary.length; // cycles automatically
-  const wordOfTheDay = wordLibrary[index];
+  if (!publication) {
+    return res.status(404).json({
+      error: "No publication scheduled for this date.",
+      code: "PUBLICATION_NOT_FOUND",
+      publicationDate: resolvedPublicationDate
+    });
+  }
 
-  res.json(wordOfTheDay);
+  res.json(publication);
 });
 
 // ✅ This must be *last* — handles unknown routes
