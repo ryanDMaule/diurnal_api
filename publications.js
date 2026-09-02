@@ -18,6 +18,72 @@ export const publications = [
     usage:
       "Unlike nocturnal creatures, diurnal animals such as squirrels and hawks are active during the day.",
     synonyms: ["Daily", "Daytime", "Circadian"]
+  },
+  {
+    id: "59fbbe4f-279c-4ede-9cb1-f6077dd22a51",
+    sequence: 2,
+    publicationDate: "2026-09-02",
+    word: "Apocryphal",
+    type: "Adjective",
+    phonetic: "a·poc·ry·phal",
+    definition: "Of doubtful authenticity, although widely circulated as true.",
+    usage: "Many apocryphal stories surround the old mansion.",
+    synonyms: ["Fictitious", "Unverified", "Legendary"]
+  },
+  {
+    id: "aa3efcc9-dc97-4c5d-8f87-cacc627e4190",
+    sequence: 3,
+    publicationDate: "2026-09-03",
+    word: "Ebullient",
+    type: "Adjective",
+    phonetic: "e·bul·li·ent",
+    definition: "Overflowing with enthusiasm or excitement.",
+    usage: "Her ebullient personality made the entire room feel more alive.",
+    synonyms: ["Exuberant", "Cheerful", "Effervescent"]
+  },
+  {
+    id: "811336d6-8309-49a3-bf6d-dd32a670337f",
+    sequence: 4,
+    publicationDate: "2026-09-04",
+    word: "Luminous",
+    type: "Adjective",
+    phonetic: "lu·​mi·​nous",
+    definition: "Emitting or reflecting light; shining brightly.",
+    usage: "The luminous moonlight illuminated the entire valley.",
+    synonyms: ["Bright", "Radiant", "Glowing"]
+  },
+  {
+    id: "126d46ba-162d-44b4-ab49-40998359ffc0",
+    sequence: 5,
+    publicationDate: "2026-09-05",
+    word: "Mellifluous",
+    type: "Adjective",
+    phonetic: "mel·​lif·​lu·​ous",
+    definition: "Sweet or musical; pleasant to hear.",
+    usage: "Her mellifluous voice captivated everyone in the room.",
+    synonyms: ["Harmonious", "Melodious", "Sweet-sounding"]
+  },
+  {
+    id: "748a2884-0905-4307-bd67-f6f0b07df70c",
+    sequence: 6,
+    publicationDate: "2026-09-06",
+    word: "Quixotic",
+    type: "Adjective",
+    phonetic: "qui·​xo·​tic",
+    definition: "Exceedingly idealistic; unrealistic and impractical.",
+    usage: "His quixotic plans to reform the world were inspiring but unlikely.",
+    synonyms: ["Idealistic", "Unrealistic", "Impractical"]
+  },
+  {
+    id: "08a6f91c-741b-4705-9074-4ccadb29a480",
+    sequence: 7,
+    publicationDate: "2026-09-07",
+    word: "Serendipity",
+    type: "Noun",
+    phonetic: "ser·​en·​dip·​i·​ty",
+    definition: "The occurrence of happy or beneficial events by chance.",
+    usage: "Finding that rare book in the tiny bookstore was pure serendipity.",
+    synonyms: ["Fortune", "Fluke", "Chance"]
   }
 ];
 
