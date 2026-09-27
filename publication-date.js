@@ -17,8 +17,15 @@ function calendarDateInTimezone(date, timeZone) {
 
 export function createPublicationDateResolver({
   dateOverride = process.env.DIURNUS_DATE_OVERRIDE,
+  nodeEnv = process.env.NODE_ENV,
   now = () => new Date()
 } = {}) {
+  if (nodeEnv === "production" && dateOverride !== undefined) {
+    throw new Error(
+      "DIURNUS_DATE_OVERRIDE must not be configured when NODE_ENV=production."
+    );
+  }
+
   if (dateOverride !== undefined && !isValidPublicationDate(dateOverride)) {
     throw new Error(
       "DIURNUS_DATE_OVERRIDE must be a real calendar date in YYYY-MM-DD format."

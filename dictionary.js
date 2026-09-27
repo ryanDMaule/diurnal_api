@@ -272,14 +272,6 @@ export const wordLibrary = [
       synonyms: ["Stubborn", "Inflexible", "Unyielding"]
     },
     {
-      word: "Pernicious",
-      type: "Adjective",
-      phonetic: "per·ni·cious",
-      definition: "Having a harmful effect, especially in a gradual way.",
-      usage: "The pernicious rumor spread throughout the school.",
-      synonyms: ["Harmful", "Damaging", "Destructive"]
-    },
-    {
       word: "Sibilant",
       type: "Adjective",
       phonetic: "sib·i·lant",
@@ -456,14 +448,6 @@ export const wordLibrary = [
       synonyms: ["Experts", "Connoisseurs", "Specialists"]
     },
     {
-      word: "Obdurate",
-      type: "Adjective",
-      phonetic: "ob·du·rate",
-      definition: "Stubbornly refusing to change one's opinion.",
-      usage: "The obdurate official refused all requests for leniency.",
-      synonyms: ["Stubborn", "Inflexible", "Adamant"]
-    },
-    {
       word: "Sartorial",
       type: "Adjective",
       phonetic: "sar·to·ri·al",
@@ -496,30 +480,6 @@ export const wordLibrary = [
       synonyms: ["Wise", "Judicious", "Insightful"]
     },
     {
-      word: "Recondite",
-      type: "Adjective",
-      phonetic: "rec·​on·​dite",
-      definition: "Little known or obscure; difficult to understand.",
-      usage: "The philosopher’s work was filled with recondite concepts that challenged readers.",
-      synonyms: ["Obscure", "Arcane", "Esoteric"]
-    },
-    {
-      word: "Laconic",
-      type: "Adjective",
-      phonetic: "la·​con·​ic",
-      definition: "Using very few words; concise to the point of seeming rude.",
-      usage: "His laconic replies made it clear he wasn’t in the mood to talk.",
-      synonyms: ["Terse", "Brief", "Concise"]
-    },
-    {
-      word: "Ineffable",
-      type: "Adjective",
-      phonetic: "in·​ef·​fa·​ble",
-      definition: "Too great or extreme to be expressed in words.",
-      usage: "The beauty of the sunset was ineffable.",
-      synonyms: ["Indescribable", "Inexpressible", "Unspeakable"]
-    },
-    {
       word: "Putative",
       type: "Adjective",
       phonetic: "pu·​ta·​tive",
@@ -536,22 +496,6 @@ export const wordLibrary = [
       synonyms: ["Harden", "Toughen", "Condition"]
     },
     {
-      word: "Maladroit",
-      type: "Adjective",
-      phonetic: "mal·​a·​droit",
-      definition: "Clumsy or inept in action or speech.",
-      usage: "His maladroit attempt at humor only made the situation more awkward.",
-      synonyms: ["Clumsy", "Awkward", "Inept"]
-    },
-    {
-      word: "Obsequious",
-      type: "Adjective",
-      phonetic: "ob·​se·​quious",
-      definition: "Excessively eager to please or obey; overly servile.",
-      usage: "The intern's obsequious behavior annoyed his coworkers.",
-      synonyms: ["Servile", "Fawning", "Submissive"]
-    },
-    {
       word: "Ameliorate",
       type: "Verb",
       phonetic: "a·​me·​lio·​rate",
@@ -566,30 +510,6 @@ export const wordLibrary = [
       definition: "Showing great care, attention, and effort.",
       usage: "Her assiduous research impressed the entire team.",
       synonyms: ["Diligent", "Meticulous", "Persistent"]
-    },
-    {
-      word: "Inveterate",
-      type: "Adjective",
-      phonetic: "in·​vet·​er·​ate",
-      definition: "Having a long-established habit, activity, or feeling.",
-      usage: "He is an inveterate storyteller, always ready with a tale.",
-      synonyms: ["Habitual", "Chronic", "Deep-rooted"]
-    },
-    {
-      word: "Tenebrous",
-      type: "Adjective",
-      phonetic: "ten·​e·​brous",
-      definition: "Dark, shadowy, or obscure.",
-      usage: "The cave was filled with a tenebrous gloom.",
-      synonyms: ["Gloomy", "Murky", "Obscure"]
-    },
-    {
-      word: "Insouciant",
-      type: "Adjective",
-      phonetic: "in·​sou·​ci·​ant",
-      definition: "Showing a casual lack of concern; carefree.",
-      usage: "He strolled into the meeting with an insouciant attitude.",
-      synonyms: ["Nonchalant", "Carefree", "Untroubled"]
     },
     {
       word: "Truculent",
@@ -632,36 +552,12 @@ export const wordLibrary = [
       synonyms: ["Sleepy", "Drowsy", "Lethargic"]
     },
     {
-      word: "Apocryphal",
-      type: "Adjective",
-      phonetic: "a·​poc·​ry·​phal",
-      definition: "Of doubtful authenticity, although widely circulated as true.",
-      usage: "The story of his childhood heroics is likely apocryphal.",
-      synonyms: ["Questionable", "Dubious", "Mythical"]
-    },
-    {
       word: "Palimpsest",
       type: "Noun",
       phonetic: "pal·​imp·​sest",
       definition: "Something reused or altered but still bearing visible traces of its earlier form.",
       usage: "The city was a palimpsest of historical eras layered together.",
       synonyms: ["Layered record", "Historical trace"]
-    },
-    {
-      word: "Irascible",
-      type: "Adjective",
-      phonetic: "ir·​as·​ci·​ble",
-      definition: "Easily angered.",
-      usage: "His irascible temperament made him difficult to work with.",
-      synonyms: ["Irritable", "Quick-tempered", "Testy"]
-    },
-    {
-      word: "Ebullient",
-      type: "Adjective",
-      phonetic: "e·​bul·​lient",
-      definition: "Cheerful and full of energy.",
-      usage: "Her ebullient personality brightened the room.",
-      synonyms: ["Exuberant", "Joyful", "Lively"]
     },
     {
       word: "Peripatetic",
@@ -694,38 +590,6 @@ export const wordLibrary = [
       definition: "Very attentive to detail; hard to please.",
       usage: "Her fastidious nature ensured every project was flawless.",
       synonyms: ["Meticulous", "Exacting", "Particular"]
-    },
-    {
-      word: "Obdurate",
-      type: "Adjective",
-      phonetic: "ob·​du·​rate",
-      definition: "Stubbornly refusing to change one’s opinion.",
-      usage: "He remained obdurate despite all persuasive arguments.",
-      synonyms: ["Stubborn", "Inflexible", "Unyielding"]
-    },
-    {
-      word: "Munificent",
-      type: "Adjective",
-      phonetic: "mu·​nif·​i·​cent",
-      definition: "Extremely generous.",
-      usage: "Her munificent donation funded the entire project.",
-      synonyms: ["Generous", "Lavish", "Bountiful"]
-    },
-    {
-      word: "Pusillanimous",
-      type: "Adjective",
-      phonetic: "pu·​sil·​lam·​i·​nous",
-      definition: "Showing a lack of courage or determination.",
-      usage: "His pusillanimous refusal to speak up disappointed everyone.",
-      synonyms: ["Cowardly", "Timid", "Fearful"]
-    },
-    {
-      word: "Sublime",
-      type: "Adjective",
-      phonetic: "sub·​lime",
-      definition: "Of such excellence or beauty as to inspire admiration.",
-      usage: "The orchestra delivered a sublime performance.",
-      synonyms: ["Magnificent", "Exalted", "Splendid"]
     },
     {
       word: "Ignominious",
@@ -776,14 +640,6 @@ export const wordLibrary = [
       synonyms: ["Remove", "Eliminate", "Prevent"]
     },
     {
-      word: "Sartorial",
-      type: "Adjective",
-      phonetic: "sar·​to·​ri·​al",
-      definition: "Relating to clothing or style of dress.",
-      usage: "His sartorial choices were always impeccable.",
-      synonyms: ["Fashion-related", "Stylish", "Tailored"]
-    },
-    {
       word: "Perspicacious",
       type: "Adjective",
       phonetic: "per·​spi·​ca·​cious",
@@ -808,30 +664,6 @@ export const wordLibrary = [
       synonyms: ["Poor", "Penniless", "Destitute"]
     },
     {
-      word: "Recalcitrant",
-      type: "Adjective",
-      phonetic: "re·​cal·​cit·​rant",
-      definition: "Stubbornly resisting authority or control.",
-      usage: "The recalcitrant student refused to follow the rules.",
-      synonyms: ["Defiant", "Unruly", "Obstinate"]
-    },
-    {
-      word: "Halcyon",
-      type: "Adjective",
-      phonetic: "hal·​cy·​on",
-      definition: "Denoting a period of time that was idyllically happy and peaceful.",
-      usage: "He often reminisced about the halcyon days of his youth.",
-      synonyms: ["Peaceful", "Serene", "Golden"]
-    },
-    {
-      word: "Pernicious",
-      type: "Adjective",
-      phonetic: "per·​ni·​cious",
-      definition: "Having a harmful effect, especially in a gradual way.",
-      usage: "The pernicious rumor spread through the office.",
-      synonyms: ["Harmful", "Damaging", "Destructive"]
-    },
-    {
       word: "Imbroglio",
       type: "Noun",
       phonetic: "im·​bro·​glio",
@@ -854,14 +686,6 @@ export const wordLibrary = [
       definition: "Cloudy, opaque, or thick with suspended matter.",
       usage: "The river became turbid after the storm.",
       synonyms: ["Murky", "Cloudy", "Opaque"]
-    },
-    {
-      word: "Vicissitude",
-      type: "Noun",
-      phonetic: "vi·​cis·​si·​tude",
-      definition: "A change of circumstances, typically unwelcome or unpleasant.",
-      usage: "They remained friends through all the vicissitudes of life.",
-      synonyms: ["Change", "Shift", "Fluctuation"]
     }
 
   ];
