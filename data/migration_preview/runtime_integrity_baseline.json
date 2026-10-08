@@ -1,0 +1,10 @@
+{
+  "algorithm": "SHA-256",
+  "files": {
+    "publications.js": "9412f38d677d4cc37a62dc02ad7c8734b94275dc2d4214f5dbc230822f5fcb27",
+    "dictionary.js": "b0295b5a68c3dd623e4ad84fbb45bf836d53b90368e3070753f9399f79874638",
+    "publication-date.js": "c2335528bf4cace3ec35f896907a23da8aa10d1e461924a707f394ac512bba02",
+    "app.js": "3a46a16cb8d8019daf50e474d84200c7e4221d9938eef429331ecac08c4897fc",
+    "server.js": "21907e6b2a4167d7a4152787ab6389ccb8458160b08a4b3c24bfc527b50075a3"
+  }
+}
