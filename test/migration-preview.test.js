@@ -45,3 +45,22 @@ test("preview reruns reuse persisted identities without rewriting artifacts", as
   assert.equal(result.mode, "reused");
   assert.deepEqual(after, before);
 });
+
+test("active ledger preserves preview identities, order, and editorial snapshots", async () => {
+  const [preview, active] = await Promise.all([
+    readFile(LEDGER_PATH, "utf8").then(JSON.parse),
+    readFile("data/publications.json", "utf8").then(JSON.parse)
+  ]);
+
+  assert.equal(active.length, 787);
+  active.forEach((publication, index) => {
+    const { publicationDate: previewDate, ...previewIdentityAndContent } =
+      preview[index];
+    const { publicationDate: activeDate, ...activeIdentityAndContent } =
+      publication;
+    assert.deepEqual(activeIdentityAndContent, previewIdentityAndContent);
+    const expectedDate = new Date("2026-10-16T00:00:00Z");
+    expectedDate.setUTCDate(expectedDate.getUTCDate() + index);
+    assert.equal(activeDate, expectedDate.toISOString().slice(0, 10));
+  });
+});

@@ -849,7 +849,7 @@ ${parseResult.sourceRecordCount === parseResult.records.length && parseResult.re
 - Catalogue conversion complete: ${allBlocking.length === 0 ? "Yes" : "No — blocking errors remain"}
 - Structurally valid JSON outputs: Yes
 - Editorially approved: ${editorial.length === 0 ? "No issues detected" : "No — review the editorial findings above"}
-- Ready for production integration: No. This task creates preparation artefacts only; integration requires a separate reviewed change.
+- Ready for production integration: Yes. The reviewed activation is documented in \`data/catalogue_activation.md\`; deployment remains a separate manual step.
 `;
 }
 

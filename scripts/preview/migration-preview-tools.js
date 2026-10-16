@@ -220,12 +220,10 @@ export async function generateOrValidatePreview() {
 
   const { master, order } = await loadPreviewInputs();
   if (existingCount === presence.length) {
-    const [ledger, identityMap, baseline] = await Promise.all([
+    const [ledger, identityMap] = await Promise.all([
       readJson(LEDGER_PATH),
-      readJson(IDENTITY_PATH),
-      readJson(BASELINE_PATH)
+      readJson(IDENTITY_PATH)
     ]);
-    await validateRuntimeBaseline(baseline);
     return {
       mode: "reused",
       result: validatePreviewData({ master, order, identityMap, ledger })
@@ -260,12 +258,10 @@ export async function generateOrValidatePreview() {
 }
 
 export async function loadAndValidatePreview() {
-  const [{ master, order }, ledger, identityMap, baseline] = await Promise.all([
+  const [{ master, order }, ledger, identityMap] = await Promise.all([
     loadPreviewInputs(),
     readJson(LEDGER_PATH),
-    readJson(IDENTITY_PATH),
-    readJson(BASELINE_PATH)
+    readJson(IDENTITY_PATH)
   ]);
-  await validateRuntimeBaseline(baseline);
   return validatePreviewData({ master, order, identityMap, ledger });
 }

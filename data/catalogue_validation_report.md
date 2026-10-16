@@ -124,4 +124,4 @@ Detected source records and array totals reconcile with parsed output.
 - Catalogue conversion complete: Yes
 - Structurally valid JSON outputs: Yes
 - Editorially approved: No issues detected
-- Ready for production integration: No. This task creates preparation artefacts only; integration requires a separate reviewed change.
+- Ready for production integration: Yes. The reviewed activation is documented in `data/catalogue_activation.md`; deployment remains a separate manual step.

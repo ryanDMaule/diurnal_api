@@ -1,6 +1,6 @@
 # Diurnus 2027 Migration Preview Plan
 
-This plan is non-operative. The current 86-record ledger and API runtime remain authoritative until a separate migration is approved.
+This document records the reviewed migration design. The migration was materialized for real-user testing with a 2026-10-16 epoch; the original 2027 preview and identity map remain preserved as immutable source artifacts.
 
 ## 1. Proposed data model
 
@@ -31,7 +31,7 @@ The snapshot prevents later editorial changes from silently rewriting history. T
 
 ## 2. Differences from the current ledger
 
-The current `publications.js` ledger embeds word snapshots but has no separate `wordId`. It contains 86 pre-release records dated 2026-09-28 through 2026-12-22. The preview contains 787 records dated 2027-01-01 through 2029-02-25 and follows `words_publication.json` exactly.
+The retired `publications.js` ledger embedded 86 pre-release snapshots dated 2026-09-28 through 2026-12-22 and had no separate `wordId`. Its exact records are preserved in `data/migration_archive/publications_86_pre_activation.json`. The immutable preview remains dated 2027-01-01 through 2029-02-25. The active materialization in `data/publications.json` preserves its identities, order, and content while shifting dates to 2026-10-16 through 2028-12-10.
 
 Only `Diurnal` occupies the same leading position. Preview UUIDs are new and do not alter or reuse current pre-release UUIDs.
 
@@ -89,25 +89,17 @@ No Flutter code is changed by this task.
 
 Europe/London remains authoritative. Date resolution must continue using the existing IANA timezone logic. The canonical ledger must be validated for one record per consecutive calendar date, sequence/date agreement, unique IDs, and exact boundaries.
 
-Archive and detail routes must continue filtering `publicationDate <= effectiveDate`. Future IDs must remain indistinguishable from unknown IDs. `/word` must continue selecting only the exact effective date, with no wrapping or fallback after 2029-02-25.
+Archive and detail routes continue filtering `publicationDate <= effectiveDate`. Future IDs remain indistinguishable from unknown IDs. `/word` selects only the exact effective date, with no wrapping or fallback after 2028-12-10.
 
 ## 10. Rollback
 
-Keep the existing runtime ledger and its checksum available until the canonical migration is proven. A rollback should restore runtime data and the matching ledger-generation identifier together. Do not partially roll back only routes, dates, or UUIDs. Database rollback is unnecessary because the current API is file-backed, but client cache generation must still match the active server ledger.
+Keep the archived 86-record ledger and pre-activation checksums available until the canonical migration is proven. A rollback should restore runtime data and the matching ledger-generation identifier together. Do not partially roll back only routes, dates, or UUIDs. Database rollback is unnecessary because the API is file-backed, but client cache generation must still match the active server ledger.
 
-## 11. Future approved migration sequence
+## 11. Approved migration sequence
 
-1. Review and approve this preview ledger and identity map.
-2. Freeze the 787-word editorial inputs and preview UUID allocations.
-3. Decide pre-release bookmark/cache disposal or mapping policy.
-4. Define the ledger-generation transport.
-5. Back up and checksum the 86-record ledger.
-6. Add runtime loaders and validators for word references plus snapshots.
-7. Preserve existing endpoint response shapes through an internal join/projection.
-8. Add boundary, future-visibility, identity, and rollback tests.
-9. Run a staging cutover using the 2027 epoch.
-10. Verify Flutter cache migration separately.
-11. Activate production only after explicit approval.
+Completed in this API change: the catalogue and identities were frozen, the 86-record ledger was archived, runtime loading and validation were added, endpoint publication shapes were preserved, a generation response header was defined, and focused boundary/identity tests were added.
+
+Still required before deployment: update Flutter to consume the generation identifier and invalidate or migrate pre-release Today/Archive/bookmark state, verify that integration, then perform a separately approved manual deployment.
 
 ## Stable identity maintenance
 

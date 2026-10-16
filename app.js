@@ -1,12 +1,31 @@
 import express from "express";
 import cors from "cors";
 
-export function createApp({ publications, resolvePublicationDate }) {
+const CATALOGUE_GENERATION_HEADER = "X-Diurnus-Catalogue-Generation";
+
+export function createApp({
+  publications,
+  resolvePublicationDate,
+  catalogueGeneration = "unspecified"
+}) {
   const app = express();
-  app.use(cors());
+  app.use(cors({ exposedHeaders: [CATALOGUE_GENERATION_HEADER] }));
+  app.use((req, res, next) => {
+    res.set(CATALOGUE_GENERATION_HEADER, catalogueGeneration);
+    next();
+  });
 
   app.get("/", (req, res) => {
     res.send("🌞 Diurnal API is running! Try /word");
+  });
+
+  app.get("/health", (req, res) => {
+    res.json({
+      status: "ok",
+      catalogueGeneration,
+      publicationCount: publications.length,
+      publicationTimezone: "Europe/London"
+    });
   });
 
   app.get("/word", (req, res) => {
@@ -53,7 +72,16 @@ export function createApp({ publications, resolvePublicationDate }) {
   });
 
   app.use((req, res) => {
-    res.status(404).json({ error: "Not Found" });
+    res.status(404).json({ error: "Not Found", code: "NOT_FOUND" });
+  });
+
+  app.use((error, req, res, next) => {
+    if (res.headersSent) return next(error);
+    console.error("Unhandled request error:", error);
+    res.status(500).json({
+      error: "Internal Server Error",
+      code: "INTERNAL_SERVER_ERROR"
+    });
   });
 
   return app;

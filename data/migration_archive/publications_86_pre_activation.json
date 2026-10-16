@@ -1,0 +1,1291 @@
+[
+  {
+    "id": "d97638a8-ffb6-4404-88f6-671fe9ce5f20",
+    "sequence": 1,
+    "publicationDate": "2026-09-28",
+    "word": "Diurnal",
+    "type": "Adjective",
+    "phonetic": "di·​ur·​nal",
+    "definition": "Occurring or active during the daytime; relating to or happening once every day.",
+    "usage": "Unlike nocturnal creatures, diurnal animals such as squirrels and hawks are active during the day.",
+    "synonyms": [
+      "Daily",
+      "Daytime",
+      "Circadian"
+    ]
+  },
+  {
+    "id": "d53a53b1-f1ba-41fe-9e87-fa0d5ae14e79",
+    "sequence": 2,
+    "publicationDate": "2026-09-29",
+    "word": "Brolic",
+    "type": "Adjective",
+    "phonetic": "bro·​lic",
+    "definition": "Describing someone who is extremely muscular or well-built.",
+    "usage": "After months of training at the gym, he looked absolutely brolic.",
+    "synonyms": [
+      "Muscular",
+      "Ripped",
+      "Buff"
+    ]
+  },
+  {
+    "id": "240cc510-2d5e-4508-87c7-3c083e1dcfaf",
+    "sequence": 3,
+    "publicationDate": "2026-09-30",
+    "word": "Quixotic",
+    "type": "Adjective",
+    "phonetic": "qui·​xo·​tic",
+    "definition": "Exceedingly idealistic; unrealistic and impractical.",
+    "usage": "His quixotic plans to reform the world were inspiring but unlikely.",
+    "synonyms": [
+      "Idealistic",
+      "Unrealistic",
+      "Impractical"
+    ]
+  },
+  {
+    "id": "b4abeccf-6fa8-49ec-b70b-881995a28bbb",
+    "sequence": 4,
+    "publicationDate": "2026-10-01",
+    "word": "Ephemeral",
+    "type": "Adjective",
+    "phonetic": "e·​phem·​er·​al",
+    "definition": "Lasting for a very short time.",
+    "usage": "Fashions are ephemeral; what is popular today may be forgotten tomorrow.",
+    "synonyms": [
+      "Transient",
+      "Fleeting",
+      "Short-lived"
+    ]
+  },
+  {
+    "id": "05bda86b-04f1-4862-83d5-bb484db5b4d9",
+    "sequence": 5,
+    "publicationDate": "2026-10-02",
+    "word": "Luminous",
+    "type": "Adjective",
+    "phonetic": "lu·​mi·​nous",
+    "definition": "Emitting or reflecting light; shining brightly.",
+    "usage": "The luminous moonlight illuminated the entire valley.",
+    "synonyms": [
+      "Bright",
+      "Radiant",
+      "Glowing"
+    ]
+  },
+  {
+    "id": "9ac9db44-a093-4a23-a40f-72f80c5281ae",
+    "sequence": 6,
+    "publicationDate": "2026-10-03",
+    "word": "Serendipity",
+    "type": "Noun",
+    "phonetic": "ser·​en·​dip·​i·​ty",
+    "definition": "The occurrence of happy or beneficial events by chance.",
+    "usage": "Finding that rare book in the tiny bookstore was pure serendipity.",
+    "synonyms": [
+      "Fortune",
+      "Fluke",
+      "Chance"
+    ]
+  },
+  {
+    "id": "18dd3b2a-5239-4ecd-b325-62eab85d46e6",
+    "sequence": 7,
+    "publicationDate": "2026-10-04",
+    "word": "Obfuscate",
+    "type": "Verb",
+    "phonetic": "ob·​fus·​cate",
+    "definition": "To make something unclear or difficult to understand.",
+    "usage": "The politician tried to obfuscate the issue with vague statements.",
+    "synonyms": [
+      "Confuse",
+      "Blur",
+      "Cloud"
+    ]
+  },
+  {
+    "id": "02099b6f-9e1f-4b29-9040-3849ff26631e",
+    "sequence": 8,
+    "publicationDate": "2026-10-05",
+    "word": "Mellifluous",
+    "type": "Adjective",
+    "phonetic": "mel·​lif·​lu·​ous",
+    "definition": "Sweet or musical; pleasant to hear.",
+    "usage": "Her mellifluous voice captivated everyone in the room.",
+    "synonyms": [
+      "Harmonious",
+      "Melodious",
+      "Sweet-sounding"
+    ]
+  },
+  {
+    "id": "a1a1dfd4-0ae2-405f-9e18-107e76ca012d",
+    "sequence": 9,
+    "publicationDate": "2026-10-06",
+    "word": "Pernicious",
+    "type": "Adjective",
+    "phonetic": "per·​ni·​cious",
+    "definition": "Having a harmful effect, especially in a gradual or subtle way.",
+    "usage": "The pernicious weed spread throughout the farmland unnoticed.",
+    "synonyms": [
+      "Harmful",
+      "Destructive",
+      "Damaging"
+    ]
+  },
+  {
+    "id": "59d7c094-117e-456b-9a28-f17b00df0122",
+    "sequence": 10,
+    "publicationDate": "2026-10-07",
+    "word": "Ubiquitous",
+    "type": "Adjective",
+    "phonetic": "u·​bi·​qui·​tous",
+    "definition": "Present, appearing, or found everywhere.",
+    "usage": "Smartphones are ubiquitous in modern society.",
+    "synonyms": [
+      "Omnipresent",
+      "Universal",
+      "Everywhere"
+    ]
+  },
+  {
+    "id": "1be29642-6299-4e45-a84b-da6365da2213",
+    "sequence": 11,
+    "publicationDate": "2026-10-08",
+    "word": "Ebullient",
+    "type": "Adjective",
+    "phonetic": "e·bul·li·ent",
+    "definition": "Overflowing with enthusiasm or excitement.",
+    "usage": "Her ebullient personality made the entire room feel more alive.",
+    "synonyms": [
+      "Exuberant",
+      "Cheerful",
+      "Effervescent"
+    ]
+  },
+  {
+    "id": "63e321bc-6f01-4fca-8052-ba8ac5dad86e",
+    "sequence": 12,
+    "publicationDate": "2026-10-09",
+    "word": "Inscrutable",
+    "type": "Adjective",
+    "phonetic": "in·scru·ta·ble",
+    "definition": "Impossible to understand or interpret.",
+    "usage": "His inscrutable expression gave nothing away during negotiations.",
+    "synonyms": [
+      "Enigmatic",
+      "Mysterious",
+      "Unreadable"
+    ]
+  },
+  {
+    "id": "488a42bb-0bd5-418a-9c57-e13a15ae47da",
+    "sequence": 13,
+    "publicationDate": "2026-10-10",
+    "word": "Laconic",
+    "type": "Adjective",
+    "phonetic": "la·con·ic",
+    "definition": "Using very few words.",
+    "usage": "Her laconic replies suggested she was not interested in small talk.",
+    "synonyms": [
+      "Brief",
+      "Concise",
+      "Terse"
+    ]
+  },
+  {
+    "id": "1465efe9-1c8d-4338-817b-ce411166eba1",
+    "sequence": 14,
+    "publicationDate": "2026-10-11",
+    "word": "Pulchritude",
+    "type": "Noun",
+    "phonetic": "pul·chri·tude",
+    "definition": "Physical beauty.",
+    "usage": "The pulchritude of the landscape left them speechless.",
+    "synonyms": [
+      "Beauty",
+      "Elegance",
+      "Attractiveness"
+    ]
+  },
+  {
+    "id": "99599455-80e9-47e5-a995-19739afbc74f",
+    "sequence": 15,
+    "publicationDate": "2026-10-12",
+    "word": "Apocryphal",
+    "type": "Adjective",
+    "phonetic": "a·poc·ry·phal",
+    "definition": "Of doubtful authenticity, although widely circulated as true.",
+    "usage": "Many apocryphal stories surround the old mansion.",
+    "synonyms": [
+      "Fictitious",
+      "Unverified",
+      "Legendary"
+    ]
+  },
+  {
+    "id": "0840e23f-29f9-4f52-be7c-be01d4d4a1a8",
+    "sequence": 16,
+    "publicationDate": "2026-10-13",
+    "word": "Ineffable",
+    "type": "Adjective",
+    "phonetic": "in·ef·fa·ble",
+    "definition": "Too great or extreme to be expressed in words.",
+    "usage": "The beauty of the sunset was ineffable.",
+    "synonyms": [
+      "Indescribable",
+      "Inexpressible",
+      "Transcendent"
+    ]
+  },
+  {
+    "id": "b152e839-abf8-495b-b96b-f66ef265d799",
+    "sequence": 17,
+    "publicationDate": "2026-10-14",
+    "word": "Sagacious",
+    "type": "Adjective",
+    "phonetic": "sa·ga·cious",
+    "definition": "Having or showing keen mental discernment; wise.",
+    "usage": "The sagacious leader made decisions that benefited everyone.",
+    "synonyms": [
+      "Wise",
+      "Shrewd",
+      "Insightful"
+    ]
+  },
+  {
+    "id": "23f1d79e-9433-4e79-82a2-63ed466d5d71",
+    "sequence": 18,
+    "publicationDate": "2026-10-15",
+    "word": "Penumbra",
+    "type": "Noun",
+    "phonetic": "pe·num·bra",
+    "definition": "The partially shaded outer region of a shadow.",
+    "usage": "The moon was surrounded by a faint penumbra during the eclipse.",
+    "synonyms": [
+      "Shadow",
+      "Shading",
+      "Obscuration"
+    ]
+  },
+  {
+    "id": "a22e2754-d93d-447d-bef1-3711e1419f63",
+    "sequence": 19,
+    "publicationDate": "2026-10-16",
+    "word": "Vociferous",
+    "type": "Adjective",
+    "phonetic": "vo·cif·er·ous",
+    "definition": "Expressing opinions loudly or forcefully.",
+    "usage": "The crowd became increasingly vociferous as the debate continued.",
+    "synonyms": [
+      "Loud",
+      "Boisterous",
+      "Clamorous"
+    ]
+  },
+  {
+    "id": "563200db-7485-4536-8879-8d0d89a0e6ee",
+    "sequence": 20,
+    "publicationDate": "2026-10-17",
+    "word": "Obsequious",
+    "type": "Adjective",
+    "phonetic": "ob·se·qui·ous",
+    "definition": "Excessively obedient or attentive; servile.",
+    "usage": "The waiter’s obsequious behavior made the guests uncomfortable.",
+    "synonyms": [
+      "Servile",
+      "Submissive",
+      "Fawning"
+    ]
+  },
+  {
+    "id": "9b6e88bd-bf8b-4d31-a5f4-702d6f2a0fba",
+    "sequence": 21,
+    "publicationDate": "2026-10-18",
+    "word": "Peregrine",
+    "type": "Adjective",
+    "phonetic": "per·e·grine",
+    "definition": "Traveling or wandering; foreign.",
+    "usage": "The peregrine traveler visited over fifty countries.",
+    "synonyms": [
+      "Wandering",
+      "Roaming",
+      "Nomadic"
+    ]
+  },
+  {
+    "id": "07205c1d-81c1-49af-9c96-ab46ccd50dfd",
+    "sequence": 22,
+    "publicationDate": "2026-10-19",
+    "word": "Halcyon",
+    "type": "Adjective",
+    "phonetic": "hal·cy·on",
+    "definition": "Denoting a period of time that was peaceful and happy.",
+    "usage": "He longed for the halcyon days of childhood.",
+    "synonyms": [
+      "Peaceful",
+      "Golden",
+      "Serene"
+    ]
+  },
+  {
+    "id": "6c793e11-eda7-4a89-bb9e-313003b9a6b6",
+    "sequence": 23,
+    "publicationDate": "2026-10-20",
+    "word": "Recalcitrant",
+    "type": "Adjective",
+    "phonetic": "re·cal·ci·trant",
+    "definition": "Resisting authority or control.",
+    "usage": "The recalcitrant student refused to follow the rules.",
+    "synonyms": [
+      "Defiant",
+      "Uncooperative",
+      "Rebellious"
+    ]
+  },
+  {
+    "id": "83614dba-72af-452c-853f-bcf72de31f98",
+    "sequence": 24,
+    "publicationDate": "2026-10-21",
+    "word": "Maladroit",
+    "type": "Adjective",
+    "phonetic": "mal·a·droit",
+    "definition": "Ineffective or clumsy.",
+    "usage": "His maladroit attempt at fixing the sink only made things worse.",
+    "synonyms": [
+      "Clumsy",
+      "Inept",
+      "Awkward"
+    ]
+  },
+  {
+    "id": "1da8af71-025e-4a03-bc23-99f9f3da972d",
+    "sequence": 25,
+    "publicationDate": "2026-10-22",
+    "word": "Soliloquy",
+    "type": "Noun",
+    "phonetic": "so·lil·o·quy",
+    "definition": "An act of speaking one’s thoughts aloud when alone.",
+    "usage": "The character delivered a moving soliloquy at the play’s climax.",
+    "synonyms": [
+      "Monologue",
+      "Speech",
+      "Oration"
+    ]
+  },
+  {
+    "id": "be23d02f-3fa4-486c-b55a-3573b9b2675d",
+    "sequence": 26,
+    "publicationDate": "2026-10-23",
+    "word": "Parsimonious",
+    "type": "Adjective",
+    "phonetic": "par·si·mo·ni·ous",
+    "definition": "Unwilling to spend money or resources.",
+    "usage": "The parsimonious landlord refused to repair the heating.",
+    "synonyms": [
+      "Stingy",
+      "Frugal",
+      "Miserly"
+    ]
+  },
+  {
+    "id": "9f557aba-c751-4678-8fa5-23639a274c7d",
+    "sequence": 27,
+    "publicationDate": "2026-10-24",
+    "word": "Cadence",
+    "type": "Noun",
+    "phonetic": "ca·dence",
+    "definition": "A rhythmic sequence or flow of sounds or words.",
+    "usage": "The cadence of her speech made it soothing to listen to.",
+    "synonyms": [
+      "Rhythm",
+      "Flow",
+      "Beat"
+    ]
+  },
+  {
+    "id": "86e8414e-7218-458e-8ca5-d21ed52b34a3",
+    "sequence": 28,
+    "publicationDate": "2026-10-25",
+    "word": "Sublime",
+    "type": "Adjective",
+    "phonetic": "sub·lime",
+    "definition": "Of such excellence or beauty as to inspire admiration.",
+    "usage": "They gazed at the sublime mountain vista in awe.",
+    "synonyms": [
+      "Magnificent",
+      "Awe-inspiring",
+      "Exalted"
+    ]
+  },
+  {
+    "id": "1c0d774e-ddf4-474f-b161-98ad3fd53692",
+    "sequence": 29,
+    "publicationDate": "2026-10-26",
+    "word": "Vitriolic",
+    "type": "Adjective",
+    "phonetic": "vi·tri·ol·ic",
+    "definition": "Filled with bitter criticism or malice.",
+    "usage": "His vitriolic comments shocked the whole team.",
+    "synonyms": [
+      "Bitter",
+      "Acrimonious",
+      "Harsh"
+    ]
+  },
+  {
+    "id": "6183d4c3-fdec-4d7b-b477-f1f4cde3d05e",
+    "sequence": 30,
+    "publicationDate": "2026-10-27",
+    "word": "Garrulous",
+    "type": "Adjective",
+    "phonetic": "gar·ru·lous",
+    "definition": "Excessively talkative, especially on trivial matters.",
+    "usage": "The garrulous old man chatted with everyone he met.",
+    "synonyms": [
+      "Talkative",
+      "Chatty",
+      "Loquacious"
+    ]
+  },
+  {
+    "id": "a0d743e5-37ff-4610-9875-c0ee03b255bd",
+    "sequence": 31,
+    "publicationDate": "2026-10-28",
+    "word": "Mordant",
+    "type": "Adjective",
+    "phonetic": "mor·dant",
+    "definition": "Having a sharp or critical quality; biting.",
+    "usage": "Her mordant wit often caught people off guard.",
+    "synonyms": [
+      "Sarcastic",
+      "Cutting",
+      "Acerbic"
+    ]
+  },
+  {
+    "id": "74f92aef-1a05-4745-94f6-0ebab4ccbaae",
+    "sequence": 32,
+    "publicationDate": "2026-10-29",
+    "word": "Refulgent",
+    "type": "Adjective",
+    "phonetic": "re·ful·gent",
+    "definition": "Shining brightly; radiant.",
+    "usage": "The refulgent sunrise painted the sky with gold.",
+    "synonyms": [
+      "Radiant",
+      "Brilliant",
+      "Luminous"
+    ]
+  },
+  {
+    "id": "af954b5f-7ee9-474c-8378-94de476b37f9",
+    "sequence": 33,
+    "publicationDate": "2026-10-30",
+    "word": "Inveterate",
+    "type": "Adjective",
+    "phonetic": "in·vet·er·ate",
+    "definition": "Having a long-standing habit; habitual.",
+    "usage": "He was an inveterate reader, finishing a book every week.",
+    "synonyms": [
+      "Chronic",
+      "Habitual",
+      "Persistent"
+    ]
+  },
+  {
+    "id": "2191404b-50a7-4910-9bc2-dc6eb99a435f",
+    "sequence": 34,
+    "publicationDate": "2026-10-31",
+    "word": "Obdurate",
+    "type": "Adjective",
+    "phonetic": "ob·du·rate",
+    "definition": "Stubbornly refusing to change one’s opinion or course of action.",
+    "usage": "She remained obdurate despite their pleas.",
+    "synonyms": [
+      "Stubborn",
+      "Inflexible",
+      "Unyielding"
+    ]
+  },
+  {
+    "id": "e79be11d-a506-441a-a413-335f0e350f12",
+    "sequence": 35,
+    "publicationDate": "2026-11-01",
+    "word": "Sibilant",
+    "type": "Adjective",
+    "phonetic": "sib·i·lant",
+    "definition": "Making or characterized by a hissing sound.",
+    "usage": "The snake's sibilant warning stopped them in their tracks.",
+    "synonyms": [
+      "Hissing",
+      "Whistling",
+      "Soft"
+    ]
+  },
+  {
+    "id": "302508e9-0906-4beb-8c6c-a8891f29030c",
+    "sequence": 36,
+    "publicationDate": "2026-11-02",
+    "word": "Tenebrous",
+    "type": "Adjective",
+    "phonetic": "ten·e·brous",
+    "definition": "Dark and shadowy; obscure.",
+    "usage": "They ventured into the tenebrous depths of the forest.",
+    "synonyms": [
+      "Dark",
+      "Shadowy",
+      "Murky"
+    ]
+  },
+  {
+    "id": "a14cef04-2e82-4c37-9f7c-8190b79b91fc",
+    "sequence": 37,
+    "publicationDate": "2026-11-03",
+    "word": "Munificent",
+    "type": "Adjective",
+    "phonetic": "mu·nif·i·cent",
+    "definition": "More generous than is usual or necessary.",
+    "usage": "The munificent donor funded an entire new wing of the museum.",
+    "synonyms": [
+      "Generous",
+      "Lavish",
+      "Charitable"
+    ]
+  },
+  {
+    "id": "97cf134c-c36f-4627-a3af-936cbccb2dee",
+    "sequence": 38,
+    "publicationDate": "2026-11-04",
+    "word": "Obstreperous",
+    "type": "Adjective",
+    "phonetic": "ob·strep·er·ous",
+    "definition": "Noisy and difficult to control.",
+    "usage": "The obstreperous crowd made it impossible to hear the speaker.",
+    "synonyms": [
+      "Rowdy",
+      "Disorderly",
+      "Unruly"
+    ]
+  },
+  {
+    "id": "8fbe0400-c4ce-4cb5-9be6-29318cf85cc6",
+    "sequence": 39,
+    "publicationDate": "2026-11-05",
+    "word": "Recondite",
+    "type": "Adjective",
+    "phonetic": "rec·on·dite",
+    "definition": "Little known; abstruse.",
+    "usage": "His research delved into recondite philosophical theories.",
+    "synonyms": [
+      "Obscure",
+      "Complex",
+      "Arcane"
+    ]
+  },
+  {
+    "id": "ee07fd91-a20b-430c-aa07-18feeab6281e",
+    "sequence": 40,
+    "publicationDate": "2026-11-06",
+    "word": "Incipient",
+    "type": "Adjective",
+    "phonetic": "in·cip·i·ent",
+    "definition": "In an initial stage; beginning to happen or develop.",
+    "usage": "The incipient storm clouds rolled across the sky.",
+    "synonyms": [
+      "Initial",
+      "Emerging",
+      "Developing"
+    ]
+  },
+  {
+    "id": "8ac623ae-5e61-4a93-b9de-e753298794a5",
+    "sequence": 41,
+    "publicationDate": "2026-11-07",
+    "word": "Corybantic",
+    "type": "Adjective",
+    "phonetic": "cor·y·ban·tic",
+    "definition": "Wild; frenzied.",
+    "usage": "The festival erupted into corybantic dancing.",
+    "synonyms": [
+      "Frenzied",
+      "Wild",
+      "Unrestrained"
+    ]
+  },
+  {
+    "id": "e246af87-3e3c-4255-8493-ac8a6c3da0b2",
+    "sequence": 42,
+    "publicationDate": "2026-11-08",
+    "word": "Cavillate",
+    "type": "Verb",
+    "phonetic": "cav·il·late",
+    "definition": "To make petty or unnecessary objections.",
+    "usage": "He tended to cavillate over the smallest details.",
+    "synonyms": [
+      "Quibble",
+      "Nitpick",
+      "Carp"
+    ]
+  },
+  {
+    "id": "306b4532-0b8f-4973-ac76-27c971140bfc",
+    "sequence": 43,
+    "publicationDate": "2026-11-09",
+    "word": "Pusillanimous",
+    "type": "Adjective",
+    "phonetic": "pu·sil·lan·i·mous",
+    "definition": "Showing a lack of courage or determination.",
+    "usage": "His pusillanimous refusal to confront the issue frustrated everyone.",
+    "synonyms": [
+      "Timid",
+      "Cowardly",
+      "Fearful"
+    ]
+  },
+  {
+    "id": "7ff7c1a5-764e-432d-9fd0-e3587233810a",
+    "sequence": 44,
+    "publicationDate": "2026-11-10",
+    "word": "Excoriate",
+    "type": "Verb",
+    "phonetic": "ex·co·ri·ate",
+    "definition": "To criticize severely.",
+    "usage": "The critic excoriated the film for its weak storyline.",
+    "synonyms": [
+      "Condemn",
+      "Denounce",
+      "Rebuke"
+    ]
+  },
+  {
+    "id": "118c5b58-39bf-425c-982a-512d4c722b58",
+    "sequence": 45,
+    "publicationDate": "2026-11-11",
+    "word": "Implacable",
+    "type": "Adjective",
+    "phonetic": "im·pla·ca·ble",
+    "definition": "Unable to be appeased or calmed.",
+    "usage": "The implacable storm continued without mercy.",
+    "synonyms": [
+      "Unyielding",
+      "Relentless",
+      "Unstoppable"
+    ]
+  },
+  {
+    "id": "9478af72-b231-4d3f-bd12-e37f6ab54c81",
+    "sequence": 46,
+    "publicationDate": "2026-11-12",
+    "word": "Insouciant",
+    "type": "Adjective",
+    "phonetic": "in·sou·ci·ant",
+    "definition": "Showing a casual lack of concern; carefree.",
+    "usage": "She walked through life with an insouciant charm.",
+    "synonyms": [
+      "Carefree",
+      "Nonchalant",
+      "Untroubled"
+    ]
+  },
+  {
+    "id": "a7d6e2f2-2163-4457-a38c-24cf72c3f10a",
+    "sequence": 47,
+    "publicationDate": "2026-11-13",
+    "word": "Vicissitude",
+    "type": "Noun",
+    "phonetic": "vi·cis·si·tude",
+    "definition": "A change of circumstances, typically unwelcome or unpleasant.",
+    "usage": "They endured the vicissitudes of a difficult year.",
+    "synonyms": [
+      "Fluctuation",
+      "Shift",
+      "Change"
+    ]
+  },
+  {
+    "id": "7fc0c245-551d-478f-94f5-b03969cc35dc",
+    "sequence": 48,
+    "publicationDate": "2026-11-14",
+    "word": "Irascible",
+    "type": "Adjective",
+    "phonetic": "i·ras·ci·ble",
+    "definition": "Easily angered.",
+    "usage": "The irascible chef shouted at anyone who moved too slowly.",
+    "synonyms": [
+      "Irritable",
+      "Testy",
+      "Hot-tempered"
+    ]
+  },
+  {
+    "id": "46c0209e-236c-4e48-9e6d-3bf567796efa",
+    "sequence": 49,
+    "publicationDate": "2026-11-15",
+    "word": "Callipygian",
+    "type": "Adjective",
+    "phonetic": "cal·li·py·gian",
+    "definition": "Having well-shaped buttocks.",
+    "usage": "The statue was famous for its callipygian form.",
+    "synonyms": [
+      "Shapely",
+      "Well-formed",
+      "Curvaceous"
+    ]
+  },
+  {
+    "id": "0d2f5f06-a3a9-4fea-b401-3c0707acd0e5",
+    "sequence": 50,
+    "publicationDate": "2026-11-16",
+    "word": "Susurrus",
+    "type": "Noun",
+    "phonetic": "su·sur·rus",
+    "definition": "A soft, whispering or rustling sound.",
+    "usage": "The susurrus of the wind lulled them to sleep.",
+    "synonyms": [
+      "Whisper",
+      "Murmur",
+      "Rustle"
+    ]
+  },
+  {
+    "id": "e5263df3-254f-4bc1-b42d-02d776ca76c7",
+    "sequence": 51,
+    "publicationDate": "2026-11-17",
+    "word": "Trenchant",
+    "type": "Adjective",
+    "phonetic": "tren·chant",
+    "definition": "Vigorous or incisive in expression or style.",
+    "usage": "Her trenchant critique changed how the team viewed the project.",
+    "synonyms": [
+      "Sharp",
+      "Incisive",
+      "Forceful"
+    ]
+  },
+  {
+    "id": "78505c61-8fb1-408b-8f40-1a77c577d0c8",
+    "sequence": 52,
+    "publicationDate": "2026-11-18",
+    "word": "Nugatory",
+    "type": "Adjective",
+    "phonetic": "nu·ga·to·ry",
+    "definition": "Of no value or importance.",
+    "usage": "The new regulation proved nugatory and was soon scrapped.",
+    "synonyms": [
+      "Useless",
+      "Worthless",
+      "Trivial"
+    ]
+  },
+  {
+    "id": "a6dd9046-56a5-422d-a3d4-50860a345c7a",
+    "sequence": 53,
+    "publicationDate": "2026-11-19",
+    "word": "Ersatz",
+    "type": "Adjective",
+    "phonetic": "er·satz",
+    "definition": "Made or used as a substitute, typically an inferior one.",
+    "usage": "The ersatz coffee tasted nothing like the real thing.",
+    "synonyms": [
+      "Artificial",
+      "Imitation",
+      "Fake"
+    ]
+  },
+  {
+    "id": "5cd1bc0b-a5aa-4079-9d25-06ba11faf067",
+    "sequence": 54,
+    "publicationDate": "2026-11-20",
+    "word": "Quiescent",
+    "type": "Adjective",
+    "phonetic": "qui·es·cent",
+    "definition": "In a state of inactivity or dormancy.",
+    "usage": "The volcano remained quiescent for decades.",
+    "synonyms": [
+      "Dormant",
+      "Inactive",
+      "Still"
+    ]
+  },
+  {
+    "id": "89ac8d27-9ee5-4e8e-8af4-f49fcbe57f1f",
+    "sequence": 55,
+    "publicationDate": "2026-11-21",
+    "word": "Inchoate",
+    "type": "Adjective",
+    "phonetic": "in·cho·ate",
+    "definition": "Just begun and not fully formed.",
+    "usage": "Her inchoate idea eventually grew into a successful business.",
+    "synonyms": [
+      "Nascent",
+      "Developing",
+      "Beginning"
+    ]
+  },
+  {
+    "id": "d7884759-3aa9-4e35-9fc1-73c813e62371",
+    "sequence": 56,
+    "publicationDate": "2026-11-22",
+    "word": "Cognoscenti",
+    "type": "Noun",
+    "phonetic": "cog·no·scen·ti",
+    "definition": "People who are considered to be especially knowledgeable in a subject.",
+    "usage": "The art cognoscenti gathered at the private gallery opening.",
+    "synonyms": [
+      "Experts",
+      "Connoisseurs",
+      "Specialists"
+    ]
+  },
+  {
+    "id": "4e263e44-28a1-43af-9c91-8bec80102ed4",
+    "sequence": 57,
+    "publicationDate": "2026-11-23",
+    "word": "Sartorial",
+    "type": "Adjective",
+    "phonetic": "sar·to·ri·al",
+    "definition": "Relating to clothing or style of dress.",
+    "usage": "His sartorial choices made him the best-dressed guest.",
+    "synonyms": [
+      "Fashion-related",
+      "Stylish",
+      "Tailored"
+    ]
+  },
+  {
+    "id": "2aa5d740-fd30-4041-a2d9-2f707b2fa166",
+    "sequence": 58,
+    "publicationDate": "2026-11-24",
+    "word": "Numinous",
+    "type": "Adjective",
+    "phonetic": "nu·mi·nous",
+    "definition": "Having a strong religious or spiritual quality; mysterious and awe-inspiring.",
+    "usage": "The ancient temple had a numinous atmosphere.",
+    "synonyms": [
+      "Spiritual",
+      "Mysterious",
+      "Sacred"
+    ]
+  },
+  {
+    "id": "8fcc6b90-bf49-4af1-b41c-860069e98891",
+    "sequence": 59,
+    "publicationDate": "2026-11-25",
+    "word": "Pyrrhic",
+    "type": "Adjective",
+    "phonetic": "pyr·​rhic",
+    "definition": "Won at too great a cost to have been worthwhile.",
+    "usage": "It was a pyrrhic victory—he won the lawsuit but lost all his savings in the process.",
+    "synonyms": [
+      "Costly",
+      "Ruinous",
+      "Hollow"
+    ]
+  },
+  {
+    "id": "3a6408e3-8384-4e52-a12c-9e1af0e60d50",
+    "sequence": 60,
+    "publicationDate": "2026-11-26",
+    "word": "Sapient",
+    "type": "Adjective",
+    "phonetic": "sa·​pi·​ent",
+    "definition": "Possessing or expressing great wisdom or intelligence.",
+    "usage": "The professor's sapient remarks left a lasting impression on her students.",
+    "synonyms": [
+      "Wise",
+      "Judicious",
+      "Insightful"
+    ]
+  },
+  {
+    "id": "f6395363-d899-4ac3-9b8d-5bb465f3556b",
+    "sequence": 61,
+    "publicationDate": "2026-11-27",
+    "word": "Putative",
+    "type": "Adjective",
+    "phonetic": "pu·​ta·​tive",
+    "definition": "Generally considered or reputed to be something.",
+    "usage": "He was the putative leader of the movement, though he denied holding any authority.",
+    "synonyms": [
+      "Supposed",
+      "Presumed",
+      "Assumed"
+    ]
+  },
+  {
+    "id": "657b6953-46b6-470d-8886-27945753abfb",
+    "sequence": 62,
+    "publicationDate": "2026-11-28",
+    "word": "Inure",
+    "type": "Verb",
+    "phonetic": "in·​ure",
+    "definition": "To accustom someone to something unpleasant.",
+    "usage": "Years of hardship had inured her to adversity.",
+    "synonyms": [
+      "Harden",
+      "Toughen",
+      "Condition"
+    ]
+  },
+  {
+    "id": "15e883f8-4d7e-44ed-be57-0dc90e56747d",
+    "sequence": 63,
+    "publicationDate": "2026-11-29",
+    "word": "Ameliorate",
+    "type": "Verb",
+    "phonetic": "a·​me·​lio·​rate",
+    "definition": "To make something bad or unsatisfactory better.",
+    "usage": "The new policies aim to ameliorate working conditions.",
+    "synonyms": [
+      "Improve",
+      "Enhance",
+      "Better"
+    ]
+  },
+  {
+    "id": "5a6db70c-1033-4c67-90fc-51a76154d731",
+    "sequence": 64,
+    "publicationDate": "2026-11-30",
+    "word": "Assiduous",
+    "type": "Adjective",
+    "phonetic": "as·​sid·​u·​ous",
+    "definition": "Showing great care, attention, and effort.",
+    "usage": "Her assiduous research impressed the entire team.",
+    "synonyms": [
+      "Diligent",
+      "Meticulous",
+      "Persistent"
+    ]
+  },
+  {
+    "id": "79a325bd-734b-435d-be11-78f25e0b090f",
+    "sequence": 65,
+    "publicationDate": "2026-12-01",
+    "word": "Truculent",
+    "type": "Adjective",
+    "phonetic": "tru·​cu·​lent",
+    "definition": "Eager or quick to argue or fight; aggressively defiant.",
+    "usage": "His truculent remarks escalated the conflict.",
+    "synonyms": [
+      "Aggressive",
+      "Combative",
+      "Defiant"
+    ]
+  },
+  {
+    "id": "ebfa27c3-6eb8-41e6-be2b-0618436ae721",
+    "sequence": 66,
+    "publicationDate": "2026-12-02",
+    "word": "Disparate",
+    "type": "Adjective",
+    "phonetic": "dis·​pa·​rate",
+    "definition": "Essentially different in kind; not allowing comparison.",
+    "usage": "The two theories were too disparate to reconcile.",
+    "synonyms": [
+      "Different",
+      "Dissimilar",
+      "Divergent"
+    ]
+  },
+  {
+    "id": "ee75617c-5476-4be5-99ca-3126e1a77b56",
+    "sequence": 67,
+    "publicationDate": "2026-12-03",
+    "word": "Quotidian",
+    "type": "Adjective",
+    "phonetic": "quo·​tid·​i·​an",
+    "definition": "Ordinary or everyday, especially something mundane.",
+    "usage": "She found joy in the quotidian details of life.",
+    "synonyms": [
+      "Daily",
+      "Routine",
+      "Mundane"
+    ]
+  },
+  {
+    "id": "73885f69-a126-4020-bcb7-37dabbe8874f",
+    "sequence": 68,
+    "publicationDate": "2026-12-04",
+    "word": "Nebulous",
+    "type": "Adjective",
+    "phonetic": "neb·​u·​lous",
+    "definition": "Unclear, vague, or ill-defined.",
+    "usage": "His explanation was so nebulous that no one understood.",
+    "synonyms": [
+      "Vague",
+      "Indistinct",
+      "Hazy"
+    ]
+  },
+  {
+    "id": "7dd72faa-f3d2-44ab-b378-9cad7365b12d",
+    "sequence": 69,
+    "publicationDate": "2026-12-05",
+    "word": "Somnolent",
+    "type": "Adjective",
+    "phonetic": "som·​no·​lent",
+    "definition": "Drowsy or sleepy.",
+    "usage": "The somnolent students struggled to stay awake.",
+    "synonyms": [
+      "Sleepy",
+      "Drowsy",
+      "Lethargic"
+    ]
+  },
+  {
+    "id": "961e5ad6-fdf6-465b-b4d0-893e195a4025",
+    "sequence": 70,
+    "publicationDate": "2026-12-06",
+    "word": "Palimpsest",
+    "type": "Noun",
+    "phonetic": "pal·​imp·​sest",
+    "definition": "Something reused or altered but still bearing visible traces of its earlier form.",
+    "usage": "The city was a palimpsest of historical eras layered together.",
+    "synonyms": [
+      "Layered record",
+      "Historical trace"
+    ]
+  },
+  {
+    "id": "56ce4fca-bdbb-4938-a379-244456c0464a",
+    "sequence": 71,
+    "publicationDate": "2026-12-07",
+    "word": "Peripatetic",
+    "type": "Adjective",
+    "phonetic": "per·​i·​pa·​tet·​ic",
+    "definition": "Traveling from place to place.",
+    "usage": "His peripatetic lifestyle made it hard to keep long-term friendships.",
+    "synonyms": [
+      "Nomadic",
+      "Wandering",
+      "Roaming"
+    ]
+  },
+  {
+    "id": "d9a7340b-78bb-4947-b434-4f3c7e21b247",
+    "sequence": 72,
+    "publicationDate": "2026-12-08",
+    "word": "Callow",
+    "type": "Adjective",
+    "phonetic": "cal·​low",
+    "definition": "Inexperienced and immature.",
+    "usage": "The callow intern made several rookie mistakes.",
+    "synonyms": [
+      "Immature",
+      "Inexperienced",
+      "Naive"
+    ]
+  },
+  {
+    "id": "51137012-5210-4d20-a10f-6a3e9a0038b2",
+    "sequence": 73,
+    "publicationDate": "2026-12-09",
+    "word": "Enervate",
+    "type": "Verb",
+    "phonetic": "en·​er·​vate",
+    "definition": "To weaken or drain energy from something.",
+    "usage": "The extreme heat enervated the entire team.",
+    "synonyms": [
+      "Weaken",
+      "Drain",
+      "Debilitate"
+    ]
+  },
+  {
+    "id": "03df50eb-3d17-4cee-b7ee-955304a18b80",
+    "sequence": 74,
+    "publicationDate": "2026-12-10",
+    "word": "Fastidious",
+    "type": "Adjective",
+    "phonetic": "fas·​tid·​i·​ous",
+    "definition": "Very attentive to detail; hard to please.",
+    "usage": "Her fastidious nature ensured every project was flawless.",
+    "synonyms": [
+      "Meticulous",
+      "Exacting",
+      "Particular"
+    ]
+  },
+  {
+    "id": "8f62221c-009d-41c3-8d56-4587dcffe1ab",
+    "sequence": 75,
+    "publicationDate": "2026-12-11",
+    "word": "Ignominious",
+    "type": "Adjective",
+    "phonetic": "ig·​no·​min·​i·​ous",
+    "definition": "Deserving or causing public disgrace or shame.",
+    "usage": "The team's ignominious defeat shocked their fans.",
+    "synonyms": [
+      "Shameful",
+      "Disgraceful",
+      "Humiliating"
+    ]
+  },
+  {
+    "id": "d329d495-e201-442c-8c10-ba12f02aa7e4",
+    "sequence": 76,
+    "publicationDate": "2026-12-12",
+    "word": "Celerity",
+    "type": "Noun",
+    "phonetic": "ce·​ler·​i·​ty",
+    "definition": "Swiftness of movement.",
+    "usage": "The task was completed with surprising celerity.",
+    "synonyms": [
+      "Speed",
+      "Quickness",
+      "Rapidity"
+    ]
+  },
+  {
+    "id": "cb182818-3873-4dd7-b4b5-7e3485293b7c",
+    "sequence": 77,
+    "publicationDate": "2026-12-13",
+    "word": "Peregrinate",
+    "type": "Verb",
+    "phonetic": "per·​e·​gri·​nate",
+    "definition": "To travel or wander from place to place.",
+    "usage": "They spent a year peregrinating through Europe.",
+    "synonyms": [
+      "Travel",
+      "Roam",
+      "Wander"
+    ]
+  },
+  {
+    "id": "f00d860e-988b-4259-aece-6a4af5e418d0",
+    "sequence": 78,
+    "publicationDate": "2026-12-14",
+    "word": "Vituperative",
+    "type": "Adjective",
+    "phonetic": "vi·​tu·​per·​a·​tive",
+    "definition": "Bitter and abusive.",
+    "usage": "The critic wrote a vituperative review of the film.",
+    "synonyms": [
+      "Scathing",
+      "Harsh",
+      "Abusive"
+    ]
+  },
+  {
+    "id": "f05baa93-128c-42c8-a29a-efc7216a1581",
+    "sequence": 79,
+    "publicationDate": "2026-12-15",
+    "word": "Supercilious",
+    "type": "Adjective",
+    "phonetic": "su·​per·​cil·​i·​ous",
+    "definition": "Behaving as though superior to others.",
+    "usage": "His supercilious attitude alienated his colleagues.",
+    "synonyms": [
+      "Arrogant",
+      "Haughty",
+      "Condescending"
+    ]
+  },
+  {
+    "id": "1e586855-bdb2-4b80-a677-6e4a917f7218",
+    "sequence": 80,
+    "publicationDate": "2026-12-16",
+    "word": "Obviate",
+    "type": "Verb",
+    "phonetic": "ob·​vi·​ate",
+    "definition": "To remove a need or difficulty.",
+    "usage": "The new software obviates the need for manual backups.",
+    "synonyms": [
+      "Remove",
+      "Eliminate",
+      "Prevent"
+    ]
+  },
+  {
+    "id": "8d8cebfb-5169-48f8-8bca-2b4b2193916d",
+    "sequence": 81,
+    "publicationDate": "2026-12-17",
+    "word": "Perspicacious",
+    "type": "Adjective",
+    "phonetic": "per·​spi·​ca·​cious",
+    "definition": "Having keen insight or understanding.",
+    "usage": "Her perspicacious analysis impressed the entire board.",
+    "synonyms": [
+      "Insightful",
+      "Perceptive",
+      "Astute"
+    ]
+  },
+  {
+    "id": "0f0db227-4955-455a-b56b-0a2ed9e2dc48",
+    "sequence": 82,
+    "publicationDate": "2026-12-18",
+    "word": "Redolent",
+    "type": "Adjective",
+    "phonetic": "red·​o·​lent",
+    "definition": "Strongly reminiscent or suggestive of something.",
+    "usage": "The room was redolent of old books and leather.",
+    "synonyms": [
+      "Evocative",
+      "Suggestive",
+      "Aromatic"
+    ]
+  },
+  {
+    "id": "671c5fbb-dbfd-4ab2-9572-93a3be9220e5",
+    "sequence": 83,
+    "publicationDate": "2026-12-19",
+    "word": "Impecunious",
+    "type": "Adjective",
+    "phonetic": "im·​pecu·​ni·​ous",
+    "definition": "Having little or no money.",
+    "usage": "The impecunious artist struggled to pay rent.",
+    "synonyms": [
+      "Poor",
+      "Penniless",
+      "Destitute"
+    ]
+  },
+  {
+    "id": "fd819f52-fdb4-4f20-bfe2-47c18d12a2c5",
+    "sequence": 84,
+    "publicationDate": "2026-12-20",
+    "word": "Imbroglio",
+    "type": "Noun",
+    "phonetic": "im·​bro·​glio",
+    "definition": "An extremely confused, complicated, or embarrassing situation.",
+    "usage": "The political imbroglio dominated the news for weeks.",
+    "synonyms": [
+      "Mess",
+      "Confusion",
+      "Entanglement"
+    ]
+  },
+  {
+    "id": "f72f8e7e-db51-459f-8d43-6ea02acf43a9",
+    "sequence": 85,
+    "publicationDate": "2026-12-21",
+    "word": "Cavill",
+    "type": "Verb",
+    "phonetic": "cav·​ill",
+    "definition": "To make petty or unnecessary objections.",
+    "usage": "He would cavill at the smallest of details.",
+    "synonyms": [
+      "Quibble",
+      "Nitpick",
+      "Carp"
+    ]
+  },
+  {
+    "id": "f25788a5-81e1-4924-8028-de01e0e79bb9",
+    "sequence": 86,
+    "publicationDate": "2026-12-22",
+    "word": "Turbid",
+    "type": "Adjective",
+    "phonetic": "tur·​bid",
+    "definition": "Cloudy, opaque, or thick with suspended matter.",
+    "usage": "The river became turbid after the storm.",
+    "synonyms": [
+      "Murky",
+      "Cloudy",
+      "Opaque"
+    ]
+  }
+]
